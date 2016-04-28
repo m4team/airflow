@@ -2205,6 +2205,8 @@ class ConnectionModelView(wwwutils.SuperUserMixin, AirflowModelView):
             ('jdbc', 'Jdbc Connection',),
             ('mysql', 'MySQL',),
             ('postgres', 'Postgres',),
+            ('rabbitmq', 'RabbitMQ',),
+            ('redis', 'Redis',),
             ('oracle', 'Oracle',),
             ('vertica', 'Vertica',),
             ('presto', 'Presto',),
